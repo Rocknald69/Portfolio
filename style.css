@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: arial, sans-serif;
+    margin: 2em auto;
+    max-width: 800px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  #header {
+    background-image: url('https://cdn.glitch.com/ae354df2-fdce-4374-9be9-6c00347deba3%2Fdenys-nevozhai-351700-unsplash.jpg?1553276718328');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  #header h1, .item-page-header h1 {
+    vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 5px 10px;
+    text-align: center;
+  }
+  
+  #header h1 {
+    font-size: 45px;
+  }
+  
+  #about-me, #about-the-project {
+    margin: 40px 40px;
+  }
+  
+  #about-me h2 {
+    text-align: center;
+  }
+  #about-me p {
+    text-align: center;
+  }
+  
+  
+  #portfolio-item-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .portfolio-item {
+    margin: 1em 10px;
+    width: 380px;
+    height: 380px;
+    flex-grow: 1;
+    background-color: #efefef;
+    text-align: center;
+  }
+  
+  .portfolio-item img {
+    max-width: 90%;
+    max-height: 300px;
+    padding: 1em;
+  }
+  
+  .item-page-header {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  #item-1-page-header {
+    background-image: url('https://cdn.glitch.com/ae354df2-fdce-4374-9be9-6c00347deba3%2Farduino-4.jpeg?1553525913427');
+  }
+  
+  #item-2-page-header {
+    background-image: url('https://cdn.glitch.com/ae354df2-fdce-4374-9be9-6c00347deba3%2Funicorn-2.jpg?1553525914165');
+  }
+  
+  #item-3-page-header {
+    background-image: url('https://cdn.glitch.com/ae354df2-fdce-4374-9be9-6c00347deba3%2Fclouds-3.jpg?1553525913671');
+  }
+  
+  #item-4-page-header {
+    background-image: url('https://cdn.glitch.com/ae354df2-fdce-4374-9be9-6c00347deba3%2Fapp-3.png?1553525916574');
+  }
+  
+  #item-page-header img{
+    max-height: 380px;
+    margin: 10px;
+  }
+  
+  .item-page-images {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .item-page-images li {
+    display: inline-block;
+    max-width: 380px;
+    margin: 10px;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .item-page-images li img {
+    width: 100%;
+  }
+  
